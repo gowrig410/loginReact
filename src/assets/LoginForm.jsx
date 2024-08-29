@@ -57,10 +57,10 @@ const LoginForm = () => {
   return (
     <>
 
-<div className='container-fluid'>
+<div className='container-fluid '>
       <div className='row'>
         <div className="col-lg-4"></div>
-        <div className='border rounded col-lg-4 mt-4'>
+        <div className='border rounded  shadow col-lg-4 mt-4'>
           <h1 className='text-center mt-4'>Registration Form</h1>
           
           <form action="" className='p-3'>
@@ -116,9 +116,9 @@ const LoginForm = () => {
                   value={radioButtonsGroup}
                   onChange={e => setRadioButtonsGroup(e.target.value)}
                 >
-                  <FormControlLabel value="male" control={<Radio />} label="Male" />
-                  <FormControlLabel value="female" control={<Radio />} label="Female" />
-                  <FormControlLabel value="other" control={<Radio />} label="Other" />
+                  <FormControlLabel value="Male" control={<Radio />} label="Male" />
+                  <FormControlLabel value="Female" control={<Radio />} label="Female" />
+                  <FormControlLabel value="Other" control={<Radio />} label="Other" />
                 </RadioGroup>
               </FormControl>
             </div>
@@ -147,10 +147,10 @@ const LoginForm = () => {
                 className='w-100 p-3'
               >
                 <option value="" hidden disabled>Courses</option>
-                <option value="biology">Bio-Maths</option>
-                <option value="computer-science">Bio-IP </option>
-                <option value="commerce">Commerce</option>
-                <option value="humanities">Humanities</option>
+                <option value="Biology-Science">Biology-Science</option>
+                <option value="Computer-Science">Computer-Science</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Humanities">Humanities</option>
               </select>
             </div>
 
